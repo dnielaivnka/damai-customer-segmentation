@@ -1,6 +1,10 @@
 
 {
   "project_name": "DaMai Coffee & Bakery",
+  
+"model_version": "1.0.0",
+"scikit_learn_version": "1.6.1",
+
   "task": "Customer Segmentation",
   "algorithm": "K-Means Clustering",
   "learning_type": "Unsupervised Learning",
