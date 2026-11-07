@@ -1,4 +1,13 @@
 # DaMai Coffee & Bakery
+
+### Live Application
+
+**Aplikasi Web:** https://damai-customer-segmentation.streamlit.app/
+
+**Source Code:** https://github.com/dnielaivnka/damai-customer-segmentation
+
+Aplikasi DaMai Coffee & Bakery menggunakan K-Means Clustering untuk segmentasi pelanggan dan rekomendasi promosi berbasis perilaku transaksi.
+
 ## Customer Segmentation and Personalized Promotion Using K-Means Clustering
 
 **Proyek Machine Learning — Kasus 05: Segmentasi Pelanggan UMKM**
