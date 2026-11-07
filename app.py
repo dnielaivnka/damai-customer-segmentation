@@ -1,4 +1,6 @@
 
+from src.features import prepare_features
+
 import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
@@ -1223,14 +1225,16 @@ elif halaman == "Prediksi Pelanggan":
             "persen_pakai_promo": persen_promo
         }])
 
+
         try:
             label_cluster = int(
                 model_bundle["pipeline"].predict(
-                    data_baru[model_bundle["fitur"]]
+                    prepare_features(data_baru)[model_bundle["fitur"]]
                 )[0]
             )
 
             segmen = model_bundle["nama_segmen"][label_cluster]
+
 
             membership = (
                 "Gold"

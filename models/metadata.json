@@ -1,0 +1,39 @@
+
+{
+  "project_name": "DaMai Coffee & Bakery",
+  "task": "Customer Segmentation",
+  "algorithm": "K-Means Clustering",
+  "learning_type": "Unsupervised Learning",
+  "dataset_period": "January-June 2026",
+  "training_samples": 10000,
+  "model_file": "damai_model_bundle.joblib",
+  "preprocessing": {
+    "missing_values": "Median Imputation",
+    "rfm_transformation": "log1p",
+    "scaling": "StandardScaler"
+  },
+  "features": [
+    "hari_sejak_transaksi_terakhir",
+    "jumlah_transaksi_6bln",
+    "total_belanja_rp",
+    "persen_pakai_promo"
+  ],
+  "n_clusters": 4,
+  "random_state": 42,
+  "evaluation": {
+    "silhouette_score": 0.5632,
+    "silhouette_sample_size": 1800,
+    "davies_bouldin_index": 0.6295,
+    "baseline_silhouette_score": 0.5394,
+    "stability_ari": 1.0
+  },
+  "cluster_mapping": {
+    "0": "Loyal Customers",
+    "1": "Inactive Customers",
+    "2": "Occasion Buyers",
+    "3": "Promo Seekers"
+  },
+  "membership_gold_threshold_rp": 1000000,
+  "model_status": "Academic Prototype",
+  "data_type": "Synthetic"
+}
