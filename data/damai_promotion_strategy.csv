@@ -1,0 +1,5 @@
+segmen,nama_promo,penawaran,syarat,tujuan,masa_berlaku_hari
+Loyal Customers,DaMai Loyalty Boost,Bonus 2x poin dasar pada satu transaksi berikutnya,"Maksimal 100 poin bonus, berlaku 7 hari",Mempertahankan pelanggan aktif,7
+Inactive Customers,DaMai Welcome Back,Voucher Rp10.000,"Minimal belanja Rp60.000, satu kali penggunaan, berlaku 7 hari",Mendorong pembelian kembali,7
+Occasion Buyers,DaMai Celebration Pack,"Diskon 5% untuk paket kue dan snack, maksimal Rp25.000","Minimal belanja Rp250.000, berlaku 14 hari",Meningkatkan pembelian kebutuhan acara,14
+Promo Seekers,DaMai Smart Bundle,"Diskon 10% untuk paket kopi dan roti, maksimal Rp15.000","Minimal belanja Rp75.000, berlaku 7 hari",Mendorong pembelian paket produk,7
